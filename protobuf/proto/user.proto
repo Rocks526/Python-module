@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "com.rocks";
+option java_outer_classname = "UserModel";
+
+message User {
+     int32 id = 1;
+     string name = 2;
+}
